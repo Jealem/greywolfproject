@@ -105,7 +105,7 @@ body {
     height: 50px;
     max-width: 100%;
     top: 13px;
-}
+}s
 .blankspace {
     border:0px solid #000;
     width:580px;
@@ -258,7 +258,7 @@ ul {
     }
 
 .lookforproducts {
-    position: relative;
+    position: absolute;
     font-family: Vogue;
     text-align: center;
     border: 40px;
