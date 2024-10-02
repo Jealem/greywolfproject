@@ -106,8 +106,8 @@ body {
     max-width: 100%;
     top: 13px;
 }
-.menuen {
-    border:6px solid #000;
+.blankspace {
+    border:1px solid #000;
     width:600px;
     height:40px;
     margin-top:0.4%;
