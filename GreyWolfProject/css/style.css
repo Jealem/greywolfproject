@@ -107,7 +107,7 @@ body {
     top: 13px;
 }
 .blankspace {
-    border:1px solid #000;
+    border:0px solid #000;
     width:590px;
     height:40px;
     margin-top:0.4%;
