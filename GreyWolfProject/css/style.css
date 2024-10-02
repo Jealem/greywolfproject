@@ -1,0 +1,288 @@
+
+@font-face {
+    font-family: Vogue;
+    src: url("/Users/jeanettelemaire/Desktop/GreyWolfProject/fonts/Vogue.ttf");
+}
+
+body {
+    background-color: #41423D;
+    padding: 20px;
+    font-size: 16px;
+    width: 96%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background-color: #f1f1f1;
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 25px;
+    float: left;
+    position: relative;
+}
+
+.footer {
+    background-color: #1ea54b;
+
+}
+
+.headercontent {
+    width: 99%;
+    height: 150px;
+    margin: auto;
+}
+.nameheader {
+    margin-top: 3%;
+    padding-left:30%;
+    padding-top: 1.5%;
+
+}
+
+
+.grey {
+    font-family: Vogue;
+    text-align: justify;
+    font-size: 6vw;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.wolf {
+    font-family: Vogue;
+    text-align: justify;
+    font-size: 6vw;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.grey::first-letter {
+    text-transform: capitalize;
+    font-family: Vogue;
+    font-size: 2em;
+    display: inline-block;
+}
+
+.wolf::first-letter {
+    text-transform: capitalize;
+    font-family: Vogue;
+    font-size: 2em;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: -8%;
+}
+
+
+
+.wrapper {
+    background-color: #41423D;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.div-headerlogo {
+    height: auto;
+}
+
+.logobox {
+    max-width: 101px;
+    max-height: 119px;
+    float: left;
+    margin-top: 1.5%;
+    padding-bottom: 30px;
+}
+
+.logo {
+    float: left;
+    max-width: 100%;
+}
+
+.navigationbar {
+    position: relative;
+    display: flex;
+    background-color: #1ea54b;
+    height: 50px;
+    max-width: 100%;
+    top: 13px;
+}
+.menuen {
+    border:1px solid #000;
+    max-width:600px;
+    height:40px;
+    margin-top:0.4%;
+    margin-left:1%;
+}
+
+ul {
+    display: inline-flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: Vogue;
+    max-width: 80%;
+    margin-top:2.6%;
+}
+
+    ul li {
+        display: inline-block;
+        color: white;
+
+    }
+
+        ul li a {
+            max-height: 100%;
+            font-family: Vogue;
+            text-decoration: none;
+            font-weight: bold;
+            color: #044825;
+            margin-right:15px;
+        }
+
+
+.hempimg {
+    max-width: 100%;
+    position: relative;
+    margin-top: 1.5%;
+}
+
+.hemppic {
+    width: 100%;
+}
+
+.ecopic { 
+    position: relative;
+    margin-top: -35%;
+    margin-left: 3%;
+    max-width: 20%;
+
+}
+
+.ecoimg {
+    max-width: 100%;
+}
+
+.mainwrapper {
+    padding: 20px;
+    font-family: 'Baskerville Old Face';
+}
+
+.footertextabout, .footertextrules {
+    font-family: Vogue;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    padding-top: -10vw;
+    margin-top: 1.8%;
+}
+
+.footertextrules {
+    padding-bottom: 2vw;
+    margin-top: 0.9%;
+}
+
+
+.searcchbar {
+    display:flex;
+    width:200px;
+
+
+}
+
+.search {
+    display: flex;
+    margin-top: 1%;
+}
+
+.form-input {
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.searchglass {
+    float: left;
+    margin-left: 5px;
+}
+
+.button-search {
+    margin-top:1px;
+    margin-left: 5%;
+    font-family: Vogue;
+    text-align: center;
+    max-height:73%;
+    border-radius:10px;
+    background:none;
+    border:none;
+}
+
+.searchname {
+    margin-top: 4px;
+    text-align: center;
+}
+
+.searchimg {
+    max-height:30px;
+}
+
+.burgermenu img{
+    float:left;
+    max-height:30px;
+    margin-left:15%;
+    margin-top:14.5%;
+}
+
+
+.userspot {
+    float:right;
+    max-width:10%;
+    margin-left:1%;
+}
+.userspot img {
+    display:inline-block;
+    margin-top:10px;
+    max-height:30px;
+}
+
+.cartspot {
+    float: right;
+    max-width: 10%;
+    margin-left: 1%;
+}
+
+    .cartspot img {
+        display: inline-block;
+        margin-top: 10px;
+        max-height: 30px;
+    }
+
+.lookforproducts {
+    position: relative;
+    font-family: Vogue;
+    text-align: center;
+    border: 40px;
+    left: 35%;
+}
+
+.lookproducts {
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background: #1EA54B;
+    border: 5px double #044825;
+    box-shadow: 3px 3px 10px inset #000;
+    text-align: center;
+    padding-top: 6px;
+}
+
+    .lookproducts a {
+        max-height: 100%;
+        max-width: 100%;
+        font-family: Vogue;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: #044825;
+
+    }
